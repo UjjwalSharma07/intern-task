@@ -1,0 +1,59 @@
+.selected-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+  
+.selected-card-details {
+    max-width: 900px;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: white;
+    padding:  50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    
+}
+.selected-card-details img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.username h1{
+    font-size: 50px;
+    color: rgb(197, 72, 72);
+    border-bottom: 3.5px solid rgb(197, 72, 72);
+    margin-bottom: -10px;
+    display: inline;
+}
+.username p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 600px;
+    /* margin-bottom: -10px; */
+}
+.username p .change-color{
+    color:  rgb(138, 37, 233);
+    
+}
+.username p .bold-text {
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+}
+.username p .border-line{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.username p:nth-child(3){
+    color: gray;
+}
+  

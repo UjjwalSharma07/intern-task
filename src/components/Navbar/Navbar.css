@@ -1,0 +1,23 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 30px; */
+    /* background-color: aqua; */
+}
+.Navbar ul {
+   display: flex;
+   gap: 15px;
+}
+.Navbar ul li{
+    list-style: none;
+}
+
+a{
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.active {
+    border-bottom: 2px solid rgb(231, 178, 32); 
+}
